@@ -50,3 +50,4 @@ const eqArrays = function(actual, expected) {
   console.log(middle([1]) + "\n" + middle([1, 2]));
   console.log(middle([1, 2, 3]) + "\n" + middle([1, 2, 3, 4, 5]));
   console.log(middle([1, 2, 3, 4]) + "\n" + middle([1, 2, 3, 4, 5, 6]));
+  module.exports =middle;
